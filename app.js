@@ -13,5 +13,16 @@ let floating = false;
 
 
 btncontainer.onclick=(e)=>{
+if (e.target.id===`n0`) {
+    if(input.innerText==``)
+    {input.innerText=0;
+}else if (input.innerText==`0`){}
+else {
+    input.innerText+=0
+
+}
+}
+    
+
 
 }
